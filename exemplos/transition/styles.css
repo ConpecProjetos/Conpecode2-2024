@@ -1,0 +1,22 @@
+.button {
+    padding: 1em 2em;
+    background-color: #FF4D00;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    border: 3px solid white;
+    user-select: none;
+    cursor: pointer;
+
+    /* TRANSITION */
+    transition: all 0.5s ease-in-out;
+}
+
+/* HOVER */
+.button:hover {
+    background-color: white;
+    color: #FF4D00;
+    letter-spacing: 7px;
+    border: 3px solid #FF4D00;
+}
